@@ -127,3 +127,57 @@ img {
 /************************************************
     SOLUZIONE RESPONSIVE
  ************************************************/
+
+/*Responsive Tablet*/
+
+
+
+@media screen and (min-width:768px) {
+
+body{
+    font-size: 14px;
+}
+
+.site-header {
+    width: 75%;
+    margin-top: 3rem;
+}
+
+.container{
+    width: 75%;
+    margin: 0;
+}
+
+.col {
+    padding-left: 0; 
+    padding-right: 0; 
+}
+
+.col-right ul{
+    margin-bottom: 60px;
+}
+
+img {
+    margin-bottom: 0px;
+    max-width: 90%;
+}
+
+.steps div h2{
+    margin-bottom: 0;
+}
+
+::before{
+
+}
+
+/*Main Contents*/
+
+
+
+}
+    
+
+
+
+
+

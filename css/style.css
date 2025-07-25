@@ -135,7 +135,72 @@ img {
 .container {
     width: 700px;
 }
+
 }
+
+/*Responsive Smartphone*/
+
+@media screen and (min-width:479px) and (max-width:767px){
+
+.site-header {
+    margin-top: 5rem;
+}
+
+h1{
+    font-size: 3rem;
+}
+
+ul li:first-child{
+    margin-top: 80px;
+}
+
+li h3{
+    margin-top: 20px;
+}
+
+.why-us .container h2{
+    margin-top: 100px;
+}
+
+.why-us .col-right {
+  width: 100%;
+}
+
+.container {
+    width: 30rem;
+}
+
+.lessons .col {
+    width:100%;
+    margin-bottom:30px
+}
+
+.row{
+    flex-direction: column;
+}
+
+.card
+{
+    margin-bottom: 30px;
+}
+
+.steps{
+    margin: 0;
+}
+
+.steps .col {
+    width: 100%;
+}
+
+.why-us .col-left {
+  width: 100%;
+}
+
+}
+
+
+
+
 
 
 

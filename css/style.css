@@ -130,10 +130,10 @@ img {
 
 /*Responsive Tablet*/
 
-@media screen and (min-width:767px) {
+@media screen and (min-width:767px) and (max-width:1900px){
 
 .container {
-    width: 700px;
+    width: 100%;
 }
 
 }
